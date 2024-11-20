@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\azureuser\\Github_Copilot\\MyMvcApp-Contact-Database-Application\\MyMvcApp.csproj": {}
+    "C:\\Users\\azureuser\\Desktop\\Github\\MyMvcApp-Contact-Database-Application\\MyMvcApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\azureuser\\Github_Copilot\\MyMvcApp-Contact-Database-Application\\MyMvcApp.csproj": {
+    "C:\\Users\\azureuser\\Desktop\\Github\\MyMvcApp-Contact-Database-Application\\MyMvcApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azureuser\\Github_Copilot\\MyMvcApp-Contact-Database-Application\\MyMvcApp.csproj",
+        "projectUniqueName": "C:\\Users\\azureuser\\Desktop\\Github\\MyMvcApp-Contact-Database-Application\\MyMvcApp.csproj",
         "projectName": "MyMvcApp",
-        "projectPath": "C:\\Users\\azureuser\\Github_Copilot\\MyMvcApp-Contact-Database-Application\\MyMvcApp.csproj",
+        "projectPath": "C:\\Users\\azureuser\\Desktop\\Github\\MyMvcApp-Contact-Database-Application\\MyMvcApp.csproj",
         "packagesPath": "C:\\Users\\azureuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azureuser\\Github_Copilot\\MyMvcApp-Contact-Database-Application\\obj\\",
+        "outputPath": "C:\\Users\\azureuser\\Desktop\\Github\\MyMvcApp-Contact-Database-Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\azureuser\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
