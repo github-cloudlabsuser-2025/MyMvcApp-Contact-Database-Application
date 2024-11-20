@@ -24,6 +24,12 @@ public class UserController : Controller
            return View("~/Views/User/Details.cshtml", userlist[id]); // Ensure the method returns a view with the user details
         }
 
+        public ActionResult Buscar()
+        {
+            return View("~/Views/User/Search.cshtml"); // Ensure the method returns a view to create a new user
+        }
+
+
         // GET: User/Create
         public ActionResult Create()
         {
@@ -123,5 +129,13 @@ public ActionResult Delete(int id, IFormCollection collection)
     // Redirect to the Index action if successful
     return RedirectToAction("Index");
 }
+
+// GET: User/Search
+public ActionResult Search(string query)
+{
+    var results = userlist.Where(u => u.Name.Contains(query) || u.Email.Contains(query)).ToList();
+    return View("~/Views/User/Search.cshtml", results);
+}
+
 }
 }
